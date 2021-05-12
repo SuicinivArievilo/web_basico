@@ -1,0 +1,27 @@
+body{
+    background-color: dimgray ;
+    
+    
+}
+h4{
+    font-size: 17px;
+}
+
+section{
+    line-height: 35px;
+    background-color: azure;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+
+.nome {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dados {
+    
+    font-size: 20px;
+}

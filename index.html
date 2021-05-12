@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vinicius de Oliveira Gonçalves</title>
+</head>
+<body>
+
+    <header>
+        <section>
+            <h1 class="nome">Vinicius de Oliveira Gonçalves</h1>
+        </section>
+
+    </header>
+    
+    <main>
+        <section>
+            <h2>Dados pessoais</h2>
+            <ul class="dados">
+                <li>Idade: 19</li>
+                <li>Telefone: (43) 99691-4590
+                <li>Email: vinicius_og@outlook.com</li>
+                <li>Rua Fernando leifart n° 113, Cj Hilda Mandarino, Londrina - PR</li>
+            </ul>
+    
+        </section>
+    
+        <section>
+            <h2>Formação academica</h2>
+            
+                <h3> Analise e Desenvolvimetno de Sistemas. 3° Semestre - Universidade Positivo │ 2020-2022</h3>
+            
+                <h3>Redes de computadores - Centro Educacional Marista Irmãos Acácio │ 2016-2017</h3>
+    
+                <h4>Principais atividades:</h4>
+    
+                <ul class="dados">
+                    <li>Administração de acesso para usuários em redes de computadores</li>
+                    <li>Configuração de servidores e projetos de arquitetura de redes</li>
+                </ul>
+        </section>
+    
+        <section>
+          <h2>Experiência profissional</h2>
+          
+            <div>
+                <h3>Analista de Suporte - AtoS│ 2021</h3>
+                <h4>Principais atividades</h4>
+                <ul class="dados">
+                    <li>Suporte tecnico a usuários de maneira remota </li>
+                    <li>Abertura, controle e encaminhamento de chamados</li>
+                    
+                </ul>
+
+
+                <h3>Auxiliar Administrativo - BB Londrina Teleatendimento│ 2018-2020</h3>
+                <h4>Principais atividades</h4>
+                    <ul class="dados">
+                        <li>Alimentação e atualização de planilhas, levantamento de dados e controle de cotações</li>
+                        <li>Suporte a sistemas e assitência técnica</li>
+                        <li>Criação e gerenciamento de contratos/pedidos</li>
+                    </ul>
+
+             </div>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul class="dados">
+                <li>Ler livros</li>
+                <li>Escutar podcasts</li>
+                <li>Entusiasta de perifericos</li>
+                <li>Jogos Eletronicos</li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Feedback Curriculo</h2>
+            <input name="feedback" value="b" type="radio"> Bom
+            <input name="feedback" value="r" type="radio"> Ruim
+
+            <form>
+                <label for="nota">Escolha uma nota de 1 a 5:</label>
+                <select name="nota" id="nota">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+
+                <br>
+
+              <p>Pontos a se avaliar</p>
+              <label for="p1"><input id="p1" name="mv" type="checkbox">Melhorar Visualmente</label>
+              <label for="p2"><input id="p2" name="fe" type="checkbox">Falta de Experiencia</label>
+              <label for="p3"><input id="p3" name="pd" type="checkbox">Poucos dados</label>
+              <label for="p4"><input id="p4" name="fe" type="checkbox">Falta de especialização</label>
+                <br><br>
+              
+
+
+              <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+        
+            <script>
+                function redirecionar(){
+                    window.open("https://github.com/");
+
+                }
+                
+            </script>
+            
+
+            <input type="submit" value="Salvar"> 
+            <button onclick="redirecionar()">Concluir</button>
+
+            </form>
+            
+           
+
+            <br><br>
+            
+
+        </section>
+    
+    </footer>
+   
+        
+</body>
+</html>
